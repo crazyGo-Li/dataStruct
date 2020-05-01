@@ -13,6 +13,8 @@ LinkList Create_LinkList();
 int Delete_LinkList(LinkList);
 
 void Scan_LinkList(LinkList);
+void Tail_Insert_LinkLisk(LinkList, int);
+void Head_Insert_LinkLisk(LinkList, int);
 
 int main()
 {
@@ -28,14 +30,75 @@ int main()
         return -1;
     }
 
+    //Tail_Insert_LinkLisk(L1, 2);
+    Head_Insert_LinkLisk(L1,2);
 
+    printf("*****************L1**************\n");
     Scan_LinkList(L1);
+
+    printf("*****************L2**************\n");
     Scan_LinkList(L2);
 
     Delete_LinkList(L1);
-    Delete_LinkList(L1);
+    Delete_LinkList(L2);
 
     return 0;
+}
+
+void Head_Insert_LinkLisk(LinkList L, int x)
+{
+    LinkList tmp = NULL;
+
+    tmp = (LinkList)malloc(sizeof(LinkList));
+    if(tmp == NULL)
+    {
+        printf("malloc fail \n");
+        return;
+    }
+    else
+    {
+        tmp->next = L;
+        tmp->i_data = x;
+
+    }
+
+    L = tmp;
+    tmp = NULL;
+    return;
+}
+
+void Tail_Insert_LinkLisk(LinkList L, int x)
+{
+    LinkList p = L;
+    LinkList tmp = NULL;
+
+    tmp = (LinkList)malloc(sizeof(LinkList));
+    if(tmp == NULL)
+    {
+        printf("malloc fail \n");
+        return;
+    }
+    else
+    {
+        tmp->next = NULL;
+        tmp->i_data = x;
+
+    }
+    if(L == NULL)
+    {
+        L = tmp;
+        tmp = NULL;
+        return;
+    }
+    while(p->next)
+    {
+        p = p->next;
+    }
+    p->next = tmp;
+    p = NULL;
+    tmp = NULL;
+
+    return;
 }
 
 void Scan_LinkList(LinkList L)
