@@ -7,15 +7,78 @@ typedef struct Polynode
 {
     int coef;
     int eap;
-    Polynode *next;
+    struct Polynode *next;
 } PolyNode,*PolyList;
 
 PolyList polycreate();
 void polydestroy(PolyList);
+void polyscan(PolyList);
+void addpoly(PolyList, PolyList);
 
 int main()
 {
     return 0;
+}
+
+void addpoly(PolyList polya, PolyList polyb)
+{
+    PolyList p, q, tail, s;
+    int sum;
+    p = polya->next;
+    q = polyb->next;
+    tail = polya;
+    while(p != NULL && q != NULL)
+    {
+        if(p->eap < q->eap)
+        {
+            tail->next = p;
+            tail = p;
+            p = p->next;
+        }
+        else if(p->eap > q->eap)
+        {
+            tail->next = q;
+            tail = q;
+            q = q->next;
+        }
+        else
+        {
+            sum = p->coef + q->coef;
+            if(sum != 0)
+            {
+                p->coef = sum;
+                tail->next = p;
+                tail = p;
+                s = q;
+                q = q->next;
+                free(s);
+            }
+            else
+            {
+                s = p;
+                p = p->next;
+                free(s);
+                s = q;
+                q = q->next;
+                free(s);
+            }
+
+        }
+    }
+
+}
+
+void polyscan(PolyList head)
+{
+    PolyList tmp_node;
+    tmp_node = head;
+    while(tmp_node->next)
+    {
+        tmp_node= tmp_node->next;
+        printf("coef: %d, eap: %d\n", tmp_node->coef, tmp_node->eap);
+    }
+    tmp_node = NULL;
+    return;
 }
 
 PolyList polycreate()
