@@ -91,8 +91,24 @@ int list_rem_next(List *list, ListElmt *element, void **data)
             list->tail = element;
         }
     }
+    free(old_element);
     list->size--;
     return 0;
+}
+
+void list_scan(List *list)
+{
+    ListElmt *element;
+    if(list_size(list) == 0)
+        printf("list is NULL\n");
+
+    element = list->head->next;
+    while(element)
+    {
+        printf("data : %s", (char *)element->data);
+        element = element->next;
+    }
+    return;
 }
 
 int main()
