@@ -23,6 +23,7 @@ typedef struct List_
 
 void list_init(List *list, void (*destroy)(void *data));
 void list_destroy(List *list);
+void list_scan(List *list);
 
 int list_ins_next(List *list, ListElmt *element, const void *data);
 int list_rem_next(List *list, ListElmt *element, void **data);
