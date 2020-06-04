@@ -70,3 +70,76 @@ int dlist_ins_next(DList *list, DListElm *element, const void *data)
     list->size++;
     return 0;
 }
+
+int dlist_ins_pre(DList *list, DListElm *element, const void *data)
+{
+    DListElm *new_element;
+    if(element == NULL && dlist_size(list) != 0)
+    {
+        return -1;    
+    }
+
+    if((new_element = (DListElm *)malloc(sizeof(DListElm))) == NULL)
+    {
+        DEBUG_MSG;
+        return -1;
+    }
+
+    new_element->data = (void *)data;
+    if(dlist_size(list) == 0)
+    {
+        list->head = element;
+        list->head->prev = NULL;
+        list->head->next = NULL;
+        list->tail = element;
+    }
+    else
+    {
+        new_element->next = element;
+        new_element->prev = element->prev;
+        if(element->prev == NULL)
+        {
+            list->head = new_element;
+        }
+        else
+        {
+            element->prev->next = new_element;
+        }
+        element->prev = new_element;
+    }
+    list->size ++;
+    return 0;
+}
+
+int dlist_remove(DList *list, DListElm *element, void **data)
+{
+    if(element == NULL || dlist_size(list) == 0)
+    {
+        return -1;
+    }
+    if(element == list->head)
+    {
+        list->head = element->next;
+        if(list->head == NULL)
+        {
+            list->tail = NULL;
+        }
+        else
+        {
+            element->next->prev = NULL;
+        }
+    }
+    else
+    {
+        element->prev->next = element->next;
+        if(element->next == NULL)
+        {
+            list->tail = element->prev;
+        }
+        element->next->prev = element->prev;
+
+    }
+    free(element);
+    list->size--;
+    return 0;
+}

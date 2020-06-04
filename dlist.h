@@ -2,6 +2,10 @@
 #define DLIST_H
 
 #include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+
+#define DEBUG_MSG printf("%s(%d): %s \n", __func__, __LINE__, strerror(errno))
 
 /* double link element */
 typedef struct DListElm_
