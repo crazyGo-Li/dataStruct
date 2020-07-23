@@ -2,7 +2,11 @@
 #define CHTBL_H
 
 #include <stdlib.h>
+#include <string.h>
+#include <errno.h>
 #include "list.h"
+
+#define DEBUG_MSG printf("%s(%d): %s\n", __func__, __LINE__, strerror(errno))
 
 typedef struct CHTbl_
 {
