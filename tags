@@ -1,0 +1,276 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AVL_BALANCED	bistree.h	8;"	d
+AVL_LFT_HEAVY	bistree.h	7;"	d
+AVL_RGT_HEAVY	bistree.h	9;"	d
+AvlNode	bistree.h	/^}AvlNode;$/;"	t	typeref:struct:AvlNode_
+AvlNode_	bistree.h	/^typedef struct AvlNode_$/;"	s
+BISTREE_H	bistree.h	2;"	d
+BiTree	bitree.h	/^}BiTree;$/;"	t	typeref:struct:BiTree_
+BiTreeNode	bitree.h	/^}BiTreeNode;$/;"	t	typeref:struct:BiTreeNode_
+BiTreeNode_	bitree.h	/^typedef struct BiTreeNode_$/;"	s
+BiTree_	bitree.h	/^typedef  struct BiTree_$/;"	s
+BisTree	bistree.h	/^typedef BiTree BisTree;$/;"	t
+CHTBL_H	chtbl.h	2;"	d
+CHTbl	chtbl.h	/^}CHTbl;$/;"	t	typeref:struct:CHTbl_
+CHTbl_	chtbl.h	/^typedef struct CHTbl_$/;"	s
+CList	clist.h	/^}CList;$/;"	t	typeref:struct:CList_
+CListElmt	clist.h	/^}CListElmt;$/;"	t	typeref:struct:CListElmt_
+CListElmt_	clist.h	/^typedef struct CListElmt_$/;"	s
+CList_	clist.h	/^typedef struct CList_$/;"	s
+CList_H	clist.h	2;"	d
+COVER_H	cover.h	2;"	d
+Create_LinkList	01-link_list.c	/^LinkList Create_LinkList()$/;"	f
+Create_LinkList	02-link_merge.c	/^LinkList Create_LinkList()$/;"	f
+Create_LinkList2	01-link_list.c	/^LinkList Create_LinkList2()$/;"	f
+Create_LinkList3	01-link_list.c	/^LinkList Create_LinkList3()$/;"	f
+DEBUG_MSG	chtbl.h	9;"	d
+DEBUG_MSG	dlist.h	8;"	d
+DLIST_H	dlist.h	2;"	d
+DList	dlist.h	/^}DList;$/;"	t	typeref:struct:DList_
+DListElm	dlist.h	/^}DListElm;$/;"	t	typeref:struct:DListElm_
+DListElm_	dlist.h	/^typedef struct DListElm_$/;"	s
+DList_	dlist.h	/^typedef struct DList_$/;"	s
+Delete_LinkList	01-link_list.c	/^int Delete_LinkList(LinkList L, int i)$/;"	f
+Delete_LinkList	02-link_merge.c	/^int Delete_LinkList(LinkList L)$/;"	f
+Destroy_LinkList	01-link_list.c	/^void Destroy_LinkList(LinkList L)$/;"	f
+ENENT_H	event.h	2;"	d
+EVENTS_H	events.h	2;"	d
+Event	event.h	/^typedef ListElmt Event;$/;"	t
+Get_LinkList	01-link_list.c	/^LNode *Get_LinkList(LinkList L, int i)$/;"	f
+HEAP_H	heap.h	2;"	d
+Head_Insert_LinkLisk	02-link_merge.c	/^void Head_Insert_LinkLisk(LinkList L, int x)$/;"	f
+Heap	heap.h	/^}Heap;$/;"	t	typeref:struct:Heap_
+Heap_	heap.h	/^typedef struct Heap_$/;"	s
+Insert_LinkList	01-link_list.c	/^int Insert_LinkList(LinkList L, int i, int x)$/;"	f
+KSet	cover.h	/^}KSet;$/;"	t	typeref:struct:kSet_
+LIST_H	list.h	4;"	d
+LNode	01-link_list.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:node	file:
+LNode	02-link_merge.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:node	file:
+Length_LinkList1	01-link_list.c	/^int Length_LinkList1(LinkList L)$/;"	f
+Length_LinkList2	01-link_list.c	/^int Length_LinkList2(LinkList L)$/;"	f
+LinkList	01-link_list.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:node	file:
+LinkList	02-link_merge.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:node	file:
+List	list.h	/^}List;$/;"	t	typeref:struct:List_
+ListElmt	list.h	/^}ListElmt;$/;"	t	typeref:struct:ListElmt_
+ListElmt_	list.h	/^typedef struct ListElmt_$/;"	s
+List_	list.h	/^typedef struct List_$/;"	s
+Locate_LinkList	01-link_list.c	/^LNode *Locate_LinkList(LinkList L, int x)$/;"	f
+MAXSIZE	05-order_stack.c	7;"	d	file:
+PQUEUE_H	pqueue.h	2;"	d
+PQueue	pqueue.h	/^typedef Heap PQueue;$/;"	t
+PolyList	03-link_list_example_01.c	/^}PolyNode, *PolyList;$/;"	t	typeref:struct:Polynode	file:
+PolyList	04-poly_list.c	/^} PolyNode,*PolyList;$/;"	t	typeref:struct:Polynode	file:
+PolyNode	03-link_list_example_01.c	/^}PolyNode, *PolyList;$/;"	t	typeref:struct:Polynode	file:
+PolyNode	04-poly_list.c	/^} PolyNode,*PolyList;$/;"	t	typeref:struct:Polynode	file:
+Polynode	03-link_list_example_01.c	/^typedef struct Polynode$/;"	s	file:
+Polynode	04-poly_list.c	/^typedef struct Polynode$/;"	s	file:
+QUEUE_H	queue.h	2;"	d
+Queue	queue.h	/^typedef List Queue;$/;"	t
+SET_H	set.h	2;"	d
+STACK_H	stack.h	2;"	d
+Scan_LinkList	02-link_merge.c	/^void Scan_LinkList(LinkList L)$/;"	f
+Scan_Link_list	01-link_list.c	/^void Scan_Link_list(LinkList L)$/;"	f
+Set	set.h	/^typedef List Set;$/;"	t
+Stack	stack.h	/^typedef List Stack;$/;"	t
+Tail_Insert_LinkLisk	02-link_merge.c	/^void Tail_Insert_LinkLisk(LinkList L, int x)$/;"	f
+__BITREE_H__	bitree.h	2;"	d
+__SORT_H__	sort.h	2;"	d
+addpoly	04-poly_list.c	/^void addpoly(PolyList polya, PolyList polyb)$/;"	f
+bistree_init	bistree.c	/^void bistree_init(BisTree *tree, int (*compare)(const void  *key1, const void *key2),$/;"	f
+bistree_insert	bistree.c	/^int bistree_insert(BisTree *tree, const void *data)$/;"	f
+bistree_lookup	bistree.c	/^int bistree_lookup(BisTree *tree, void **data)$/;"	f
+bistree_remove	bistree.c	/^int bistree_remove(BisTree *tree, const void *data)$/;"	f
+bistree_size	bistree.h	26;"	d
+bitree_data	bitree.h	38;"	d
+bitree_destroy	bitree.c	/^void bitree_destroy(BiTree *tree)$/;"	f
+bitree_init	bitree.c	/^void bitree_init(BiTree *tree, void (*destroy)(void *data))$/;"	f
+bitree_ins_left	bitree.c	/^int bitree_ins_left(BiTree *tree, BiTreeNode *node, const void *data)$/;"	f
+bitree_ins_right	bitree.c	/^int bitree_ins_right(BiTree *tree, BiTreeNode *node, const void *data)$/;"	f
+bitree_is_eob	bitree.h	36;"	d
+bitree_is_leaf	bitree.h	37;"	d
+bitree_left	bitree.h	39;"	d
+bitree_merge	bitree.c	/^int bitree_merge(BiTree *merge, BiTree *left, BiTree *right, const void *data)$/;"	f
+bitree_rem_left	bitree.c	/^void bitree_rem_left(BiTree *tree, BiTreeNode *node)$/;"	f
+bitree_rem_right	bitree.c	/^void bitree_rem_right(BiTree *tree, BiTreeNode *node)$/;"	f
+bitree_right	bitree.h	40;"	d
+bitree_root	bitree.h	35;"	d
+bitree_size	bitree.h	34;"	d
+buckets	chtbl.h	/^    int buckets;$/;"	m	struct:CHTbl_
+build_heap	test_heap.c	/^void build_heap(int tree[], int n)$/;"	f
+chtbl_destroy	14-chtbl.c	/^void chtbl_destroy(CHTbl *htbl)$/;"	f
+chtbl_init	14-chtbl.c	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key),$/;"	f
+chtbl_insert	14-chtbl.c	/^int chtbl_insert(CHTbl *htbl, const void *data)$/;"	f
+chtbl_lookup	14-chtbl.c	/^int chtbl_lookup(const CHTbl *htbl, void **data)$/;"	f
+chtbl_size	chtbl.h	29;"	d
+clist_data	clist.h	25;"	d
+clist_destroy	08-clist.c	/^void clist_destroy(CList *list)$/;"	f
+clist_head	clist.h	24;"	d
+clist_init	08-clist.c	/^void clist_init(CList *list, void (*destroy)(void *data))$/;"	f
+clist_ins_next	08-clist.c	/^int clist_ins_next(CList *list, CListElmt *element, const void *data)$/;"	f
+clist_next	clist.h	26;"	d
+clist_rem_next	08-clist.c	/^int clist_rem_next(CList *list, CListElmt *element, void **data)$/;"	f
+clist_size	clist.h	23;"	d
+coef	03-link_list_example_01.c	/^    int coef;$/;"	m	struct:Polynode	file:
+coef	04-poly_list.c	/^    int coef;$/;"	m	struct:Polynode	file:
+compare	heap.h	/^    int (*compare)(const void *key1, const void *key2);$/;"	m	struct:Heap_
+compare_int	qksort.c	/^static int compare_int(const void *int1, const void *int2)$/;"	f	file:
+cover	13-cover.c	/^int cover(Set *members, Set *subsets, Set *covering)$/;"	f
+cpmpare	bitree.h	/^    int (*cpmpare) (const void *key1, const void *key2);$/;"	m	struct:BiTree_
+data	05-order_stack.c	/^    char data[MAXSIZE];$/;"	m	struct:__anon1	file:
+data	bistree.h	/^    void *data;$/;"	m	struct:AvlNode_
+data	bitree.h	/^    void *data;$/;"	m	struct:BiTreeNode_
+data	clist.h	/^    void *data;$/;"	m	struct:CListElmt_
+data	dlist.h	/^    void *data;$/;"	m	struct:DListElm_
+data	list.h	/^    void *data;$/;"	m	struct:ListElmt_
+destroy	bistree.c	/^void destroy(BisTree *tree)$/;"	f
+destroy	bitree.h	/^    void(*destroy) (void *data);$/;"	m	struct:BiTree_
+destroy	chtbl.h	/^    void (*destroy)(void *data);$/;"	m	struct:CHTbl_
+destroy	clist.h	/^    void (*destroy)(void *data);$/;"	m	struct:CList_
+destroy	dlist.h	/^    void (*destroy)(void *data);$/;"	m	struct:DList_
+destroy	heap.h	/^    void (*destroy)(void *data);$/;"	m	struct:Heap_
+destroy	list.h	/^    void (*destroy)(void *data);$/;"	m	struct:List_
+destroy_left	bistree.c	/^static void destroy_left(BisTree *tree, BiTreeNode *node)$/;"	f	file:
+destroy_rigth	bistree.c	/^static void destroy_rigth(BisTree *tree, BiTreeNode *node)$/;"	f	file:
+dlist_data	dlist.h	38;"	d
+dlist_destroy	07-dlist.c	/^void dlist_destroy(DList *list)$/;"	f
+dlist_head	dlist.h	34;"	d
+dlist_init	07-dlist.c	/^void dlist_init(DList *list, void (*destroy)(void *data))$/;"	f
+dlist_ins_next	07-dlist.c	/^int dlist_ins_next(DList *list, DListElm *element, const void *data)$/;"	f
+dlist_ins_pre	07-dlist.c	/^int dlist_ins_pre(DList *list, DListElm *element, const void *data)$/;"	f
+dlist_is_head	dlist.h	36;"	d
+dlist_is_tail	dlist.h	37;"	d
+dlist_next	dlist.h	39;"	d
+dlist_prev	dlist.h	40;"	d
+dlist_remove	07-dlist.c	/^int dlist_remove(DList *list, DListElm *element, void **data)$/;"	f
+dlist_size	dlist.h	33;"	d
+dlist_tail	dlist.h	35;"	d
+eap	03-link_list_example_01.c	/^    int eap;$/;"	m	struct:Polynode	file:
+eap	04-poly_list.c	/^    int eap;$/;"	m	struct:Polynode	file:
+empty_seqstack	05-order_stack.c	/^int empty_seqstack(seqstack *s)$/;"	f
+events	events.h	/^typedef Queue events;$/;"	t
+factor	bistree.h	/^    int factor;$/;"	m	struct:AvlNode_
+h	chtbl.h	/^    int (*h)(const void *key);$/;"	m	struct:CHTbl_
+head	clist.h	/^    CListElmt *head;$/;"	m	struct:CList_
+head	dlist.h	/^    DListElm *head;$/;"	m	struct:DList_
+head	list.h	/^    ListElmt *head;$/;"	m	struct:List_
+heap_destroy	heap.c	/^void heap_destroy(Heap *heap)$/;"	f
+heap_extract	heap.c	/^int heap_extract(Heap *heap, void **data)$/;"	f
+heap_init	heap.c	/^void heap_init(Heap *heap, int(*compare)(const void *key1, const void *key2), void(*destroy)(void *data))$/;"	f
+heap_insert	heap.c	/^int heap_insert(Heap *heap, const void *data)$/;"	f
+heap_left	heap.c	8;"	d	file:
+heap_parent	heap.c	7;"	d	file:
+heap_right	heap.c	9;"	d	file:
+heap_size	heap.h	17;"	d
+heapify	test_heap.c	/^void heapify(int tree[], int n, int i)$/;"	f
+hidden	bistree.h	/^    int hidden;$/;"	m	struct:AvlNode_
+hide	bistree.c	/^static int hide(BisTree *tree, BiTreeNode *node, const void *data)$/;"	f	file:
+htbl_remove	14-chtbl.c	/^int htbl_remove(CHTbl *htbl, void **data)$/;"	f
+i_data	01-link_list.c	/^    int i_data;$/;"	m	struct:node	file:
+i_data	02-link_merge.c	/^    int i_data;$/;"	m	struct:node	file:
+init_seqstack	05-order_stack.c	/^seqstack * init_seqstack()$/;"	f
+insert	bistree.c	/^static int insert(BisTree *tree, BiTreeNode **node, const void *data, int *balanced)$/;"	f	file:
+issort	issort.c	/^int issort(void *data, int size, int esize, int(*compare)(const void *key1, const void *key2))$/;"	f
+kSet_	cover.h	/^typedef struct kSet_$/;"	s
+key	cover.h	/^    void *key;$/;"	m	struct:kSet_
+left	bitree.h	/^    struct BiTreeNode_ *left;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+list_data	list.h	36;"	d
+list_destroy	06-list.c	/^void list_destroy(List *list)$/;"	f
+list_head	list.h	32;"	d
+list_init	06-list.c	/^void list_init(List *list, void (*destroy)(void *data))$/;"	f
+list_ins_next	06-list.c	/^int list_ins_next(List *list, ListElmt *element, const void *data)$/;"	f
+list_is_head	list.h	34;"	d
+list_is_tail	list.h	35;"	d
+list_next	list.h	37;"	d
+list_rem_next	06-list.c	/^int list_rem_next(List *list, ListElmt *element, void **data)$/;"	f
+list_scan	06-list.c	/^void list_scan(List *list)$/;"	f
+list_size	list.h	31;"	d
+list_tail	list.h	33;"	d
+lookup	bistree.c	/^static int lookup(BisTree *tree, BiTreeNode *node, void **data)$/;"	f	file:
+main	01-link_list.c	/^int main()$/;"	f
+main	02-link_merge.c	/^int main()$/;"	f
+main	03-link_list_example_01.c	/^int main()$/;"	f
+main	04-poly_list.c	/^int main()$/;"	f
+main	05-order_stack.c	/^int main()$/;"	f
+main	06-list.c	/^int main()$/;"	f
+main	08-clist.c	/^int main()$/;"	f
+main	test_heap.c	/^int main()$/;"	f
+match	chtbl.h	/^    int (*match)(const void *key1, const void *key2);$/;"	m	struct:CHTbl_
+match	clist.h	/^    int (*match)(const void *key1, const void *key2);$/;"	m	struct:CList_
+match	dlist.h	/^    int (*match)(const void *key1, const void *key2);$/;"	m	struct:DList_
+match	list.h	/^    int (*match)(const void *key1, const void *key2);$/;"	m	struct:List_
+next	01-link_list.c	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	02-link_merge.c	/^    struct node * next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	03-link_list_example_01.c	/^    Polynode *next;$/;"	m	struct:Polynode	file:
+next	04-poly_list.c	/^    struct Polynode *next;$/;"	m	struct:Polynode	typeref:struct:Polynode::Polynode	file:
+next	clist.h	/^    struct CListElmt_ *next;$/;"	m	struct:CListElmt_	typeref:struct:CListElmt_::CListElmt_
+next	dlist.h	/^    struct DListElm_ *next;$/;"	m	struct:DListElm_	typeref:struct:DListElm_::DListElm_
+next	list.h	/^    struct ListElmt_ *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_
+node	01-link_list.c	/^typedef struct node$/;"	s	file:
+node	02-link_merge.c	/^typedef struct node$/;"	s	file:
+partition	qksort.c	/^static int partition(void *data, int esize, int i, int k, int(*compare)(const void *key1, const void *key2))$/;"	f	file:
+poly_create	03-link_list_example_01.c	/^PolyList poly_create()$/;"	f
+poly_delete	03-link_list_example_01.c	/^void poly_delete(PolyList p)$/;"	f
+polycreate	04-poly_list.c	/^PolyList polycreate()$/;"	f
+polydestroy	04-poly_list.c	/^void polydestroy(PolyList head)$/;"	f
+polyscan	04-poly_list.c	/^void polyscan(PolyList head)$/;"	f
+pop_seqstack	05-order_stack.c	/^int pop_seqstack(seqstack *s, char *x)$/;"	f
+pqueue_destroy	pqueue.h	9;"	d
+pqueue_extract	pqueue.h	11;"	d
+pqueue_init	pqueue.h	8;"	d
+pqueue_insert	pqueue.h	10;"	d
+pqueue_peek	pqueue.h	12;"	d
+pqueue_size	pqueue.h	13;"	d
+prev	dlist.h	/^    struct DListElm_ *prev;$/;"	m	struct:DListElm_	typeref:struct:DListElm_::DListElm_
+process_event	11-events.c	/^int process_event(Queue *events, int(*dispatch)(Event *event))$/;"	f
+pur_LinkList	01-link_list.c	/^void pur_LinkList(LinkList H)$/;"	f
+push_seqstack	05-order_stack.c	/^int push_seqstack(seqstack *s, char x)$/;"	f
+qksort	qksort.c	/^int qksort(void *data, int size, int esize, int i, int k, int(*compare)(const void *key1, const void *key2))$/;"	f
+queue_dequeue	10-queue.c	/^int queue_dequeue(Queue *queue, void **data)$/;"	f
+queue_destroy	queue.h	10;"	d
+queue_enqueue	10-queue.c	/^int queue_enqueue(Queue *queue, const void *data)$/;"	f
+queue_init	queue.h	9;"	d
+queue_peek	queue.h	15;"	d
+queue_size	queue.h	16;"	d
+receive_event	11-events.c	/^int receive_event(Queue *events, const Event *event)$/;"	f
+revers	01-link_list.c	/^void revers(LinkList H)$/;"	f
+right	bitree.h	/^    struct BiTreeNode_ *right;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_
+root	bitree.h	/^    BiTreeNode *root;$/;"	m	struct:BiTree_
+rotate_left	bistree.c	/^static void rotate_left(BiTreeNode **node)$/;"	f	file:
+rotate_right	bistree.c	/^static void rotate_right(BiTreeNode **node)$/;"	f	file:
+seqstack	05-order_stack.c	/^}seqstack;$/;"	t	typeref:struct:__anon1	file:
+set	cover.h	/^    Set set;$/;"	m	struct:kSet_
+set_destroy	set.h	12;"	d
+set_difference	12-set.c	/^int set_difference(Set *setd, const Set *set1, const Set *set2)$/;"	f
+set_init	12-set.c	/^void set_init(Set *set, int (*match)(const void *key1, const void *key2),$/;"	f
+set_insert	12-set.c	/^int set_insert(Set *set, const void *data)$/;"	f
+set_intersection	12-set.c	/^int set_intersection(Set *seti, const Set *set1, const Set *set2)$/;"	f
+set_is_equal	12-set.c	/^int set_is_equal(const Set *set1, const Set *set2)$/;"	f
+set_is_member	12-set.c	/^int set_is_member(const Set *set, const void *data)$/;"	f
+set_is_subset	12-set.c	/^int set_is_subset(const Set *set1, const Set *set2)$/;"	f
+set_remove	12-set.c	/^int set_remove(Set *set, void **data)$/;"	f
+set_size	set.h	23;"	d
+set_union	12-set.c	/^int set_union(Set *setu, const Set *set1, const Set *set2)$/;"	f
+size	bitree.h	/^    int size;$/;"	m	struct:BiTree_
+size	chtbl.h	/^    int size;$/;"	m	struct:CHTbl_
+size	clist.h	/^    int size;$/;"	m	struct:CList_
+size	dlist.h	/^    int size;$/;"	m	struct:DList_
+size	heap.h	/^    int size;$/;"	m	struct:Heap_
+size	list.h	/^    int size;$/;"	m	struct:List_
+stack_destroy	stack.h	10;"	d
+stack_init	stack.h	9;"	d
+stack_peel	stack.h	15;"	d
+stack_pop	09-stack.c	/^int stack_pop(Stack *stack, void **data)$/;"	f
+stack_push	09-stack.c	/^int stack_push(Stack *stack, const void *data)$/;"	f
+stack_size	stack.h	16;"	d
+swap	test_heap.c	/^void swap(int arr[], int i, int j)$/;"	f
+table	chtbl.h	/^    List *table;$/;"	m	struct:CHTbl_
+tail	dlist.h	/^    DListElm *tail;$/;"	m	struct:DList_
+tail	list.h	/^    ListElmt *tail;$/;"	m	struct:List_
+top	05-order_stack.c	/^    int top;$/;"	m	struct:__anon1	file:
+top_seqstack	05-order_stack.c	/^char top_seqstack(seqstack *s)$/;"	f
+tree	heap.h	/^    void **tree;$/;"	m	struct:Heap_

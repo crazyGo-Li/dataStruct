@@ -3,6 +3,9 @@
 #include <string.h>
 #include "sort.h"
 
+/* i为右边有序数组的起始位置 */
+/* j为右边有序数组的起始位置 */
+/* k为数组的结束位置 */
 static int merge(void *data, int esize, int i, int j, int k, int(*compare)(const void *key1, const void *key2))
 {
     char *a = (char *)data, *m;
@@ -79,7 +82,7 @@ int mgsort(void *data, int size, int esize, int i, int k, int(*compare)(const vo
         if(mgsort(data, size, esize, j + 1, k, compare) < 0)
             return -1;
         /* 最后形成左右两侧的有序数组，再次进行merge */
-        if(mgsort(data, esize, i, j, k, compare) < 0)
+        if(merge(data, esize, i, j, k, compare) < 0)
             return -1;
     }
     return 0;
